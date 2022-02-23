@@ -54,5 +54,9 @@ body{
 }
 
 .size{
+    font-size: 1.2em;
+    color: red;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     transform: scale(1.1);
+    box-shadow: 0 0 15px rgb(241, 43, 241);
 }
