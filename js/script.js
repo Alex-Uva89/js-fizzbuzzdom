@@ -1,5 +1,5 @@
 // dati
-let areaContainBoxes = document.querySelector('.area-boxes')
+let areaContainBoxes = document.querySelector('.area-boxes');
 
 // input
 for (let i = 1; i <= 100; i++) {
@@ -14,6 +14,17 @@ for (let i = 1; i <= 100; i++) {
     else{
         areaContainBoxes.innerHTML += `<div class="box">${i}</div>`
     }
+}
+
+let caselBox = document.querySelectorAll('.box');
+
+for (let i = 0; i < caselBox.length ; i++) {
+    caselBox[i].addEventListener('mouseover', function(){
+        caselBox[i].classList.add('size');
+    });
+    caselBox[i].addEventListener('mouseout', function(){
+        caselBox[i].classList.remove('size');
+    });
 }
     
 

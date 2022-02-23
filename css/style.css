@@ -5,16 +5,54 @@
 }
 
 body{
-    background-color: rgb(1, 143, 153);
+    background-color: rgb(245, 245, 129);
 }
 
 .container{
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: thistle;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.area-boxes{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .box{
     width: 4rem;
     height: 4rem;
-    background-color: rgb(2, 100, 55);
+    background-color: violet;
+    font-size: 1em;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px rgb(241, 43, 241);
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.pink{
+    background-color: rgb(235, 183, 218);
+}
+
+.orange{
+    background-color: rgb(150, 30, 230);
+}
+
+.size{
+    transform: scale(1.1);
 }
