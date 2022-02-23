@@ -1,7 +1,9 @@
-// dati
+// DATI
 let areaContainBoxes = document.querySelector('.area-boxes');
 
-// input
+// ::::::::::::FUNZIONE CASELLE::::::::::::
+
+// INPUT
 for (let i = 1; i <= 100; i++) {
     
     if (i % 3 == 0 && i % 5 == 0) {
@@ -16,7 +18,7 @@ for (let i = 1; i <= 100; i++) {
 
 }
 
-
+// ::::::::::::EFFETTO ZOOM::::::::::::::::
 
 let caselBox = document.querySelectorAll('.box');
 
@@ -29,5 +31,3 @@ for (let i = 0; i < caselBox.length ; i++) {
     });
 }
     
-
-// output
