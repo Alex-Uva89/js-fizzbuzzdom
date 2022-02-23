@@ -30,4 +30,5 @@ for (let i = 0; i < caselBox.length ; i++) {
         caselBox[i].classList.remove('size');
     });
 }
-    
+
+
